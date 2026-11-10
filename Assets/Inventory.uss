@@ -1,0 +1,142 @@
+:root {
+}
+
+.inventory-panel {
+    width: 450px;
+    height: 500px;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    align-self: center;
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    border-top-color: rgb(0, 255, 253);
+    border-right-color: rgb(0, 255, 253);
+    border-bottom-color: rgb(0, 255, 253);
+    border-left-color: rgb(0, 255, 253);
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.Inventory-title {
+    -unity-font-style: bold;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.slot-grid {
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color: rgb(170, 255, 230);
+    padding-top: 6px;
+    padding-right: 6px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 184px;
+}
+
+.info-box {
+    border-top-color: rgb(255, 255, 255);
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding-top: 0;
+    margin-top: 5px;
+}
+
+.info-text {
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    padding-left: 9px;
+}
+
+.inventory-slot {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 75px;
+    height: 80px;
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    border-top-color: rgb(0, 0, 0);
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    justify-content: center;
+    -unity-background-image-tint-color: rgb(147, 146, 146);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    align-items: center;
+}
+
+.inventory-slot:hover {
+    background-color: rgb(128, 128, 128);
+    border-color: yellow;
+}
+
+.slot-icon {
+    position: relative;
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0; /* 크기가 강제로 줄어들지 않도록 방지 */
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.slot-label{
+    position:absolute;
+    text-align:center;
+    width:16px;
+    height:16px;
+    right:0px;
+    bottom:2px;
+    -unity-font-style:bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    -unity-text-align: middle-center;
+    /* 가독성을 위한 배경 뱃지 (선택 사항) */
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 4px;
+    padding:0;
+}

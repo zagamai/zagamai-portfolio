@@ -1,0 +1,10 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Inventory.uss?fileID=7433441132597879392&amp;guid=c69567a5a4e62824e8d565f18951861d&amp;type=3#Inventory"/>
+    <ui:VisualElement name="InventoryRoot" class="inventory-panel" style="flex-grow: 1; width: 380px; top: 2px; left: 164px;">
+        <ui:Label text="Inventory" name="TitleLabel" class="Inventory-title" style="-unity-text-align: upper-center;"/>
+        <ui:VisualElement name="SlotContainer" class="slot-grid" style="flex-grow: 1;"/>
+        <ui:VisualElement name="InfoBox" class="info-box" style="flex-grow: 1;">
+            <ui:Label text="Label" name="ItemInfoLabel" class="info-text"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
