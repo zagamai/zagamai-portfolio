@@ -2,6 +2,10 @@ using UnityEngine;
 using UnityEngine.UIElements;
 using System.Collections.Generic;
 using System; //아래 리스트 인벤토리아이템을 넣으려면 유징을 만들어야됨
+
+
+// github연동 확인용 스크립터
+
 public class NewMonoBehaviourScript : MonoBehaviour
 //인벤토리 ui만들기
 {
